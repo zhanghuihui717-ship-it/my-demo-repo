@@ -1,0 +1,9 @@
+name = "bg-remover-worker"
+main = "worker/index.js"
+compatibility_date = "2024-01-01"
+
+# Environment variables (set these in Cloudflare dashboard)
+# REMOVE_BG_API_KEY = your remove.bg API key
+
+[vars]
+# Default empty - set in Cloudflare dashboard
